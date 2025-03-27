@@ -7,7 +7,8 @@ import Services from "./pages/services";
 import Works from "./pages/works";
 import Career from "./pages/carrer";
 import Contact from "./pages/contact";
-import Footer  from "./components/footer"
+import Footer from "./components/footer";
+import ParentComponent from "./components/parentcom"; // Import the component
 
 const App = () => {
   return (
@@ -22,7 +23,11 @@ const App = () => {
           <Route path="/career" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />                        
+
+        {/* Add the Become A Client button globally */}
+        <ParentComponent /> 
+        
+        <Footer />
       </div>
     </Router>
   );

@@ -70,6 +70,7 @@ const Navbar = () => {
           >
             Become a client
           </Link>
+          <ParentComponent />
         </div>
       )}
     </nav>

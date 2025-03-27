@@ -48,9 +48,9 @@ const WorksSection = () => {
   const sectionRef = useRef(null);
 
   return (
-    <div id="worksec" className="min-h-[300vh] bg-white px-4 py-20" ref={sectionRef}>
+    <div id="worksec" className="min-h-[300vh] w-full bg-white px-4 py-20" ref={sectionRef}>
       {/* Sticky Header */}
-      <div className="sticky top-0 bg-white z-50 text-center pb-12">
+      <div className=" bg-white z-50 text-center pb-12">
         <p className="text-breviaPurple font-semibold mb-2">⚡ Our works</p>
         <h2 className="text-4xl xl:text-5xl font-bold text-breviaPurple">
           Our Top Latest Works
